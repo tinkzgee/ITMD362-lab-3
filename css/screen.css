@@ -5,14 +5,105 @@
 
 /* stylelint-disable*/
 
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
   display: block
 }
 html {
@@ -21,13 +112,18 @@ html {
 body {
   line-height: inherit
 }
-ol, ul {
+ol,
+ul {
   list-style: none
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none
 }
-blockquote:after, blockquote:before, q:after, q:before {
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
   content: '';
   content: none
 }
@@ -47,7 +143,11 @@ table {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
   font-family: sans-serif;
   /* 1 */
   font-size: 100%;
@@ -62,7 +162,8 @@ button, input, optgroup, select, textarea {
  * 1. Show the overflow in Edge.
  */
 
-button, input {
+button,
+input {
   /* 1 */
   overflow: visible;
 }
@@ -71,7 +172,8 @@ button, input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button, select {
+button,
+select {
   /* 1 */
   text-transform: none;
 }
@@ -81,10 +183,12 @@ button, select {
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 
-button, html [type="button"],
+button,
+html [type="button"],
 /* 1 */
 
-[type="reset"], [type="submit"] {
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
 }
@@ -92,7 +196,10 @@ button, html [type="button"],
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -100,7 +207,10 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 /**
@@ -156,7 +266,8 @@ textarea {
  * 2. Remove the padding in IE 10-.
  */
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -166,7 +277,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 /**
@@ -184,7 +296,8 @@ textarea {
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
 
-[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 /**
@@ -202,7 +315,9 @@ textarea {
 
 /* Responsive Media */
 
-img, audio, video {
+img,
+audio,
+video {
   display: block;
   max-width: 100%;
 }
@@ -243,7 +358,7 @@ h1 {
   line-height: 1.618em;
   /* 26px / ~ 1.618% */
   text-align: center;
-  font-family: Noto Serif TC, serif;
+  font-family: "Noto Serif TC", serif;
   text-transform: uppercase;
 }
 form {
@@ -256,7 +371,7 @@ p {
   text-align: center;
   font-size: 1.0em;
   line-height: 1.618em;
-  font-family: Gentium Basic, serif;
+  font-family: "Gentium Basic", serif;
 }
 ol {
   background-color: #808080;
@@ -276,7 +391,7 @@ input {
   border-radius: 0.25em;
   font-size: 0.75em;
   background-color: #DCDCDC;
-  font-family: Noto Serif TC, serif;
+  font-family: "Noto Serif TC", serif;
 }
 /* ===== MODULAR STYLES ===== */
 
@@ -350,7 +465,9 @@ input {
       font-style: normal;
       font-weight: normal;
     }
-    p, label, input {
+    p,
+    label,
+    input {
       font-size: 0.618em;
       /* 13px @ 22 */
       line-height: 1.618em;
@@ -358,7 +475,7 @@ input {
       /* ( 22px / 22px = 1em ) */
       font-style: normal;
       font-weight: normal;
-      font-family: Prata, serif;
+      font-family: "Prata", serif;
     }
     #age-verification {
       display: inline-block;
@@ -371,4 +488,7 @@ input {
       height: 2.007em;
     }
   }
+  
+}
+    
   /* ===== STATE STYLES ======= */
