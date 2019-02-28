@@ -358,4 +358,35 @@ input {
         height: 1.664em;
     }
 
+    /* Small Devices, Phones */
+@media screen and (max-width: 354px) { 
+
+    h1 {
+        font-size: 1.618em; /* 35.596px @ 22 */
+        line-height: 1.618em; /* 26px / ~ 1.618% */ /* ( 26px / 22px = 1.182em ) */ 
+        font-style: normal; 
+        font-weight: normal;
+    } 
+    
+    p, label, input {
+        font-size: 0.618em; /* 13px @ 22 */
+        line-height: 1.618em; /* 22px / ~ 1.618% */ /* ( 22px / 22px = 1em ) */
+        font-style: normal; 
+        font-weight: normal;
+        font-family: Prata, serif;
+    }
+
+    #age-verification {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.0em;
+        margin-right: 0.6em;
+        width: 1.007em;
+        height: 2.007em;
+    }
+
+}
+
 /* ===== STATE STYLES ======= */
