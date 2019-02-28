@@ -1,37 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
+<html class="nojs" lang="en">
 <head>
   <title>HTML Form Elements</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0,shrink-to-fit=no" name="viewport">
   <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Noto+Serif+TC|Prata" rel="stylesheet">
-  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="css/screen.css" media="screen" rel="stylesheet">
 </head>
 <body>
-<main id="content">
+  <main id="content">
     <h1>Get Our Newsletter</h1>
-  <form method="get" action="#null">
-
-    <p>
-      Sign up to be first to receive the lastest news
-      and breaking alerts right in your inbox.
-    </p>
-    <ol>
-      <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" />
-      </li>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification">I am 18 years of age or older and there is no denying that this is true</label>
-      </li>
-      <li id="input-submit">
-        <input type="submit" name="submit" id="submit" value="Subscribe" />
-      </li>
-    </ol>
-  </form>
-</main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/site.js"></script>
+    <form action="#null" method="get">
+      <p>Sign up to be first to receive the lastest news and breaking alerts right in your inbox.</p>
+      <ol>
+        <li id="input-email"><label for="email">Email</label> <input id="email" name="email" pattern="^.+@.+$" type="email"></li>
+        <li id="input-age-verification"><input id="age-verification" name="age-verification" type="checkbox" value="18"> <label for="age-verification">I am 18 years of age or older and there is no denying that this is true</label></li>
+        <li id="input-submit"><input id="submit" name="submit" type="submit" value="Subscribe"></li>
+      </ol>
+    </form>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+  </script> 
+  <script src="js/site.js">
+  </script>
 </body>
 </html>
