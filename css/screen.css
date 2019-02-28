@@ -225,7 +225,66 @@ html {
 label {
   display: block;
 }
+
+/* ======================================================= */
+/* Three fonts */
+body {
+  background-color: lightGray;
+  font-family: 'Noto Serif TC', serif;
+  font-family: 'Prata', serif;
+  font-family: 'Gentium Basic', serif;
+}
+
 /* ===== LAYOUT STYLES ====== */
+
+h1 { 
+  font-size: 1.618em;
+  /* 35.596px @ 22 */
+  line-height: 1.618em;
+  /* 26px / ~ 1.618% */
+  text-align: center;
+  font-family: Noto Serif TC, serif;
+  text-transform: uppercase;
+}
+
+form {
+  background-color: slategray;
+  margin-top: 0.50em;
+  padding: 0.80em;
+  border-radius: 0.25em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.0em; 
+  line-height: 1.618em; 
+  font-family: Gentium Basic, serif;
+}
+
+ol {
+  background-color: grey;
+  margin-top: 0.80em;
+  padding: 0.80em;
+  border-radius: 0.25em;
+
+}
+
+input {
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Prata, serif;
+  border-radius: 0.25em;
+}
+
+#submit {
+  padding: 0.40em;
+  border-radius: 0.25em;
+  font-size: 0.75em; 
+  background-color: lightgrey;
+  font-family: Noto Serif TC, serif;
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
