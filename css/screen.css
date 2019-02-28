@@ -248,7 +248,7 @@ h1 {
 }
 
 form {
-  background-color: slategray;
+  background-color: #2F4F4F;
   margin-top: 0.50em;
   padding: 0.80em;
   border-radius: 0.25em;
@@ -262,7 +262,7 @@ p {
 }
 
 ol {
-  background-color: grey;
+  background-color: #808080;
   margin-top: 0.80em;
   padding: 0.80em;
   border-radius: 0.25em;
@@ -281,11 +281,81 @@ input {
   padding: 0.40em;
   border-radius: 0.25em;
   font-size: 0.75em; 
-  background-color: lightgrey;
+  background-color: #DCDCDC;
   font-family: Noto Serif TC, serif;
 }
 
 
 /* ===== MODULAR STYLES ===== */
+/* Computers, Large screens */
+@media screen and (min-width: 996px) {
+    main {
+        width: 960px;
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+
+}
+
+  /*medium-screens*/
+  @media screen and (min-width: 668px) {
+
+    body {
+      background-color: #C0C0C0;
+    }
+
+    /* email css */
+
+    #input-email {
+        width: 100%;
+        padding-top: 0.809em;
+        padding-bottom: 0.809em;
+        display: block;
+    }
+
+    label[for=email] {
+        padding-top: 0.809em;
+        padding-bottom: 0.50em;
+        width: 19%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #email {
+        width: 80%;
+        padding-top: 0.809em;
+        padding-bottom: 0.50em;
+        display: inline-block;
+
+    }
+
+        /* age verification css */
+
+    #input-age-verification {
+        width: 80%;
+        float: right;
+        display: block;
+        overflow: hidden; 
+        text-align: left;
+    }
+
+    label[for=age-verification] {
+        display: inline-block;
+        text-align: left;
+        width: 86%
+
+    }
+
+    #age-verification {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0.0em;
+        margin-right: 0.6em;
+        width: 0.75em;
+        height: 1.664em;
+    }
 
 /* ===== STATE STYLES ======= */
